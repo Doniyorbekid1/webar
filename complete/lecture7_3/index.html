@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <title>AR Shop</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="../../libs/fas.js"></script>
+    <script type="module">
+        import { App } from './app.js';
+
+        document.addEventListener("DOMContentLoaded", function(){
+            const app = new App();
+            window.app = app;
+        });
+    </script>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Столы и стулья
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Мебель для гостинной</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Прихожий</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Вешалки и зеркало</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Кровати и матрасы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Тумбы и комоды</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Мебель для гостинной</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Шкафы и стеллажи</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Диваны и кресло</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+
+        <br><br>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../../assets/ar-shop/chair1.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Обеденный стул органический скандинавский дизайн</a>
+                </h4>
+                <h5>35 860 ₽</h5>
+               </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <button class="ar-button" onclick="window.app.showChair(1);"><i class="fas fa-camera"></i></button>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../../assets/ar-shop/chair2.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Кресло Лидия</a>
+                </h4>
+                <h5>64 286 ₽</h5>
+               </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <button class="ar-button" onclick="window.app.showChair(2);"><i class="fas fa-camera"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../../assets/ar-shop/chair3.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Стул La-Alta</a>
+                </h4>
+                <h5>3 150 ₽</h5>
+             </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <button class="ar-button" onclick="window.app.showChair(3);"><i class="fas fa-camera"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../../assets/ar-shop/chair4.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Кресло Oysho</a>
+                </h4>
+                <h5>39 063 ₽</h5>
+               </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <button class="ar-button" onclick="window.app.showChair(4);"><i class="fas fa-camera"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../../assets/ar-shop/chair5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Кресло для руководителя</a>
+                </h4>
+                <h5>95 150 ₽</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <button class="ar-button" onclick="window.app.showChair(5);"><i class="fas fa-camera"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../../assets/ar-shop/chair6.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Стул CATINO</a>
+                </h4>
+                <h5>38 000 ₽</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <button class="ar-button" onclick="window.app.showChair(6);"><i class="fas fa-camera"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
